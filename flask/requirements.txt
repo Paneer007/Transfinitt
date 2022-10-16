@@ -1,0 +1,11 @@
+opencv-python
+numpy
+matplotlib
+pdf2image
+pytesseract
+pillow
+PyPDF2 
+selenium
+requests
+webdriver-manager
+flask
