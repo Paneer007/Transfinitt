@@ -1,0 +1,29 @@
+
+<%- include("top") -%>
+<form action="/" method="post">
+    <input placeholder="Name"  name="name" autocomplete="none" required/>
+    <br />
+    <input placeholder="Father's Name"  name="name" autocomplete="none" required/>
+    <br />
+    <input placeholder="Age" type="number" name="age"autocomplete="none" required/>
+    <br />
+    <input placeholder="City" name="city" autocomplete="none" />
+    <br />
+    <input placeholder="District" name="district" autocomplete="none" required/>
+    <br />
+    <input placeholder="State" name="state" autocomplete="none" required/>
+   
+    <br />
+    <input placeholder="Assembly constituency" name="assemblyConstituency"autocomplete="none" required />
+    <br />
+    <select placeholder="gender" name="gender" >
+        <option value="">Select a value</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>  
+    <br />
+    <button name="submit">Submit</button>  
+</form>
+
+<%- include("bot") -%>
+

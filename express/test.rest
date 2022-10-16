@@ -1,0 +1,56 @@
+#####
+POST http://localhost:3001/api/userdata/login
+Content-Type: application/json
+
+{
+    "Name":"Abinav",
+    "FatherName":"Kumar",
+    "Gender":"पुरुष/Male",
+    "Age":18,
+    "State":"Telangana"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#############
+POST http://localhost:3001/api/userdata/login/user
+Content-Type: application/json
+
+{
+    "EPICNo": "ZTS7113020",
+    "Name": "Venkat Sai Abhinav Varma Dandu",
+    "Age": "20",
+    "RelativeName": "Satish Kumar Varma Dandu",
+    "State": "Telangana",
+    "District": "Rangareddy",
+    "PollingStation": "Nagarjuna Talent School",
+    "AssemblyConstituency": "Lal Bahadur Nagar",
+    "ParliamentaryConstituency": "Malkajgiri"
+}
+
+
+##################
+POST http://localhost:3001/api/state
+Content-Type: application/json
+
+{
+    "stateData": "Goa",
+    "ACData": "Lal Bahadur Nagar - 49",
+    "PCData": "Malkajgiri",
+    "NameData": "Venkat Sai Abhinav Varma Dandu",
+    "EpicData": "ZTS7113020",
+    "PartNumber": 5,
+    "SerialNumber": 758,
+    "PollingNumber": "Nagarjuna Talent School - 257",
+    "ACNumber": 4
+  }
